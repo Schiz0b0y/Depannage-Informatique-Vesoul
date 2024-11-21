@@ -1,0 +1,28 @@
+:root {
+
+/* Color */
+
+--principale: #2b6ca3;
+--secondaire: #6baed6;
+--saillance: #ffa726;
+--gray-800: #141414;
+--gray-600: #3d3d3d;
+--gray-200: #f0f0f0;
+--gray-100: #f7f7f7;
+
+/* Typographie */
+
+--font-sans: "Open Sans", sans-serif;
+--condensed: "wdth" 75;
+--normal: "wdth" 100;
+
+/* Font size */
+--fs-title-1: 64px;
+--fs-title-2: 48px;
+--fs-title-3: 32px;
+--fs-title-4: 24px;
+--fs-title-5: 20px;
+--fs-body: 14px;
+--fs-small: 12px;
+
+}

@@ -1,0 +1,12 @@
+.header {
+    background-color: var(--principale);
+    display: flex;
+    padding: 22px 34px;
+}
+
+.header__logo {
+    display: flex;
+    img {
+        width: 154px;
+    }
+}
