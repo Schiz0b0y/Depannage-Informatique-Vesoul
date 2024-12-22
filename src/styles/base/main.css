@@ -1,16 +1,15 @@
 .saillance {
-    color: var(--saillance);
+  color: var(--saillance);
 }
 
 .infos {
-
 }
 
-img, video {
-    max-width: 100%;
-    height: auto;
+img,
+video {
+  max-width: 100%;
+  height: auto;
 }
 
 .tuile {
-    position: absolute;
 }
