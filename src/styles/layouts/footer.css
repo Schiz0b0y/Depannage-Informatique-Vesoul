@@ -1,12 +1,11 @@
 .footer {
   position: absolute;
-  height: 60px;
+  min-height: 60px;
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   align-items: center; /* Centrage vertical */
   justify-content: center; /* Centrer les éléments principaux */
-  padding: 0 20px; /* Espacement horizontal */
+  padding: 24px 20px; /* Espacement horizontal */
   background-color: var(--principale);
   margin: 0px -30px;
 }
@@ -21,9 +20,10 @@
 .footer__menu-list {
   list-style: none; /* Retirer les puces */
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 20px; /* Espacement entre les éléments du menu */
-  padding: 0;
+  padding: 0px 30px;
   margin: 0;
 }
 
@@ -57,6 +57,7 @@
 
 .footer__legal {
   display: flex;
+  justify-content: center;
   text-align: center;
   color: var(--gray-100);
   font-size: var(--fs-small);
