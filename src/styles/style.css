@@ -1,23 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap");
 
 /* Vendors */
 @import "vendors/normalize";
 
 /* Base */
-
 @import "base/main.css";
 @import "base/contact.css";
 @import "base/infos.css";
+@import "base/numerisation.css";
 
 /* Utils */
-
 @import "utils/variables.css";
 
 /* Layouts */
-
 @import "layouts/header.css";
 @import "layouts/footer.css";
 
 /* Components */
-
 @import "components/menu.css";
+@import "components/tuile.css";
+@import "components/hero.css";

@@ -14,7 +14,7 @@
 
 .header__start {
   display: flex;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 .header__logo {
@@ -22,14 +22,14 @@
 }
 
 .header__logo-image {
-  max-width:none;
+  max-width: none;
   width: 154px;
   z-index: 20;
 }
 
 .header__end {
   display: flex;
-  margin-right: 30px;
+  margin-right: 40px;
 }
 
 .header__menuBtn {

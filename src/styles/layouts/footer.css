@@ -1,24 +1,44 @@
 .footer {
-  position: relative;
+  position: absolute;
+  width: 100%;
   min-height: 60px;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centrage vertical */
-  justify-content: center; /* Centrer les éléments principaux */
+  align-items: center;
+  justify-content: center;
   background-color: var(--principale);
 }
 
 .footer__menu-list {
-  list-style: none; /* Retirer les puces */
+  list-style: none;
   padding: 0 50px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px; /* Espacement entre les éléments du menu */
+  gap: 20px;
 }
 
-.footer__menu-item {
-  display: flex;
+.footer__menu-item1 {
+  grid-area: 1 / 1 / 2 / 2;
+  align-items: center;
+}
+
+.footer__menu-item2 {
+  grid-area: 1 / 2 / 2 / 3;
+  align-items: center;
+}
+
+.footer__menu-item3 {
+  grid-area: 2 / 1 / 3 / 2;
+  align-items: center;
+}
+
+.footer__menu-item4 {
+  grid-area: 2 / 2 / 3 / 3;
   align-items: center;
 }
 
@@ -40,9 +60,10 @@
 }
 
 .footer__contact-text {
-  color: #F7F7F7;
+  color: var(--gray-100);
   font-size: var(--fs-body);
   word-wrap: break-word;
+  font-variation-settings: var(--normal);
 }
 
 .footer__legal {
@@ -52,7 +73,7 @@
   text-align: center;
   color: var(--gray-100);
   font-size: var(--fs-small);
-  font-variation-settings: var(--condensed);
+  font-variation-settings: var(--normal);
 }
 
 .footer__legal-link {
@@ -62,4 +83,28 @@
 
 .footer__legal-link:hover {
   text-decoration: underline;
+}
+
+@media (min-width: 960px) {
+  .footer__menu-list {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+  }
+
+  .footer__menu-item1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .footer__menu-item2 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  .footer__menu-item3 {
+    grid-area: 1 / 3 / 2 / 4;
+  }
+
+  .footer__menu-item4 {
+    grid-area: 1 / 4 / 2 / 5;
+  }
 }

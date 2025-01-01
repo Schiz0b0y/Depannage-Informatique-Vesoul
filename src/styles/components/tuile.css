@@ -1,0 +1,10 @@
+.tuileInfos {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px 30px;
+  background: var(--principale);
+  border-radius: 15px;
+  text-align: center;
+  color: var(--gray-100);
+}

@@ -1,0 +1,19 @@
+.hero {
+  text-align: center;
+  line-height: 45px;
+  margin-bottom: 50px;
+}
+
+.hero__text {
+  font-weight: normal;
+}
+
+@media (min-width: 960px) {
+  .hero {
+    line-height: 60px;
+  }
+
+  .hero__text {
+    font-size: var(--fs-title-1);
+  }
+}
