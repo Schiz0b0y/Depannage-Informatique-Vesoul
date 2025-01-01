@@ -18,6 +18,7 @@
     height: 100vh;
     background-color: var(--principale);
     font-size: var(--fs-title-3);
+    font-variation-settings: var(--condensed);
   }
   .menu--open {
     visibility: visible;

@@ -1,5 +1,6 @@
 main {
   margin: 60px 30px;
+  margin-top: 150px;
 }
 
 body {
@@ -15,6 +16,10 @@ body {
   margin: 0;
 }
 
+.noscroll {
+  overflow: hidden;
+}
+
 img,
 video {
   max-width: 100%;
@@ -23,6 +28,16 @@ video {
 
 h1 {
   font-variation-settings: var(--condensed);
+}
+
+.hero {
+  text-align: center;
+  line-height: 45px;
+  margin-bottom: 50px;
+}
+
+.hero__text {
+  font-weight: normal;
 }
 
 .saillance {
