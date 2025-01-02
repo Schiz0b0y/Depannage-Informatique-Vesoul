@@ -18,15 +18,15 @@
   margin-bottom: 0px;
 }
 
-.numerisation__tuile {
+.numerisation__box {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-.numerisation__tuileText {
+.numerisation__boxText {
   font-size: var(--fs-title-5);
 }
-.numerisation__tuileTitle {
+.numerisation__boxTitle {
   font-size: var(--fs-title-4);
 }
 
@@ -48,7 +48,7 @@
     font-size: var(--fs-title-3);
   }
 
-  .numerisation__tuile {
+  .numerisation__box {
     flex-direction: row;
     gap: 120px;
   }

@@ -1,4 +1,4 @@
-// AFFICHAGE DU MENU MOBILE
+// Affichage du menu mobile
 
 const hamburger = document.querySelector(".menuBurger");
 const menu = document.querySelector(".menu");
@@ -15,4 +15,14 @@ if (hamburger && menu) {
     menu.classList.toggle("menu--open", isClosed);
     menu.classList.toggle("noscroll", isClosed);
   });
+}
+
+
+
+// Affichage du background sur la page d'accueil
+
+const path = window.location.pathname;
+
+if (path === "/" || path === "/index.html") {
+    document.body.classList.add("homepage");
 }

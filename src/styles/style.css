@@ -18,7 +18,7 @@
 
 /* Components */
 @import "components/menu.css";
-@import "components/tuile.css";
+@import "components/box.css";
 @import "components/tuileLarge.css";
 @import "components/tuileDemi.css";
 @import "components/hero.css";

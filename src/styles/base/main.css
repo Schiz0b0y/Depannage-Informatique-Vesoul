@@ -4,7 +4,14 @@
   box-sizing: border-box;
 }
 
+div, span {
+  transition: all 0.4s ease;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background-color: var(--gray-800);
   font-family: var(--font-sans);
   font-variation-settings: var(--condensed);
@@ -13,6 +20,7 @@ body {
 
 main {
   margin: 50px 30px;
+  flex: 1;
 }
 
 img,
@@ -24,6 +32,14 @@ video {
 h1 {
   font-variation-settings: var(--condensed);
   margin: 0;
+}
+
+
+.homepage {
+  position: relative;
+  background: url("/src/assets/img/casper-johansson-KDIHqGWlvOc-unsplash.jpg") var(--overlay) no-repeat center center;
+  background-blend-mode: multiply;
+  background-size: cover;
 }
 
 .saillance {
@@ -58,7 +74,7 @@ h1 {
 @media (min-width: 960px) {
   main {
     margin: 60px auto;
-    margin-top: 150px;
+    padding: 0 30px;
     max-width: 1200px;
   }
 }

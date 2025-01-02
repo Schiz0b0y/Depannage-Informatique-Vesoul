@@ -6,21 +6,30 @@
 
 {{>"components/tuileLarge.hbs"
     title="Montage PC à la carte"
+    description="<p>Montage de PC personnalisés</p><p>Choix des composants selon l'utilisation souhaitée</p>"
     image="/src/assets/img/andy-holmes-EOAKUQcsFIU-unsplash.jpg"
     imageAlt=""
+    link="montage"
 }}
 
-{{>"components/tuileDemi.hbs"
-    title="Dépannage"
-    image="/src/assets/img/artiom-vallat-mx9axbKqKW8-unsplash.jpg"
-    imageAlt=""
-}}
+<div class="tuileDemiContainer">
+  {{>"components/tuileDemi.hbs"
+      title="Dépannage"
+      description="<p>Prise en charge d'ordinateurs fixes, portables (PC & Mac) et tablettes</p><p>Réparation - Sauvegarde - Optimisation</p>"
+      image="/src/assets/img/artiom-vallat-mx9axbKqKW8-unsplash.jpg"
+      imageAlt=""
+      link="depannage"
+  }}
+  
+  {{>"components/tuileDemi.hbs"
+      title="Service de numérisation"
+      description="<p>Cassettes VHS / VHS C / HI8 / Mini DV / Audio</p><p>Bobines Super 8 / Normal 8</p>"
+      image="/src/assets/img/2150172471.jpg"
+      imageAlt=""
+      link="numerisation"
+  }}
+</div>
 
-{{>"components/tuileDemi.hbs"
-    title="Service de numérisation"
-    image="/src/assets/img/2150172471.jpg"
-    imageAlt=""
-}}
 
 <div class="contact-details">
   <span class="contact-details__text">
