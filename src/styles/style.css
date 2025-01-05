@@ -8,6 +8,7 @@
 @import "base/contact.css";
 @import "base/infos.css";
 @import "base/numerisation.css";
+@import "base/depannage.css";
 
 /* Utils */
 @import "utils/variables.css";
@@ -22,3 +23,5 @@
 @import "components/tuileLarge.css";
 @import "components/tuileDemi.css";
 @import "components/hero.css";
+@import "components/serviceDroite.css";
+@import "components/serviceGauche.css";

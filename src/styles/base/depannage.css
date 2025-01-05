@@ -1,0 +1,13 @@
+.depannage{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  transition: 0.4s;
+}
+
+@media (min-width: 960px) {
+    .depannage {
+      grid-template-columns: repeat(2, 1fr);
+    }
+}
