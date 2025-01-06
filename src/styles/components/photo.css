@@ -1,0 +1,73 @@
+/* hover styles */
+.photo {
+  position: relative;
+  height: 224px;
+}
+
+.photo__image {
+  line-height: 0;
+  overflow: hidden;
+  border-radius: 15px;
+  height: 224px;
+  
+}
+
+.photo__image img {
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  object-fit: cover;
+  height: 100%;
+  width: 354px;
+}
+
+.photo__titre {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+  background: var(--blur);
+  color: white;
+  border-radius: 15px;
+  
+  /* position the text in t’ middle*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo:hover .photo__titre {
+  opacity: 1;
+}
+
+.photo:hover .photo__image img {
+  filter: blur(2px);
+}
+
+
+/* for touch screen devices */
+@media (hover: none) { 
+  .photo__titre {
+    opacity: 1;
+  }
+  .photo__image img {
+    filter: blur(2px);
+  }
+}
+
+@media (min-width: 960px) {
+  .photo__image {
+    max-height: 200px;
+    max-width: 286px;
+  }
+  .photo__titre {
+    font-size: 2em;
+    max-height: 200px;
+  }
+}

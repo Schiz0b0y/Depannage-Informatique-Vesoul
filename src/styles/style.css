@@ -9,6 +9,7 @@
 @import "base/infos.css";
 @import "base/numerisation.css";
 @import "base/depannage.css";
+@import "base/photos.css";
 
 /* Utils */
 @import "utils/variables.css";
@@ -25,3 +26,4 @@
 @import "components/hero.css";
 @import "components/serviceDroite.css";
 @import "components/serviceGauche.css";
+@import "components/photo.css";

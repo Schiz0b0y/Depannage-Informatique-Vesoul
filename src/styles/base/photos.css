@@ -1,0 +1,15 @@
+.photos__container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 0 auto;
+  max-width: 470px;
+}
+
+@media (min-width: 960px) {
+  .photos__container {
+    grid-template-columns: repeat(4, minmax(286px, 1fr));
+    justify-content: center;
+  }
+}
