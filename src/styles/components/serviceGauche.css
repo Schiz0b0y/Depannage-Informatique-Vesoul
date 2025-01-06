@@ -5,7 +5,6 @@
   display: flex;
   justify-content: space-between;
   gap: 12px;
-  max-height: 180px;
 }
 
 .serviceGauche__title {
@@ -14,6 +13,7 @@
 }
 
 .serviceGauche__text {
+  width: 100%;
   font-size: var(--fs-small);
 }
 
@@ -27,6 +27,7 @@
 @media (min-width: 960px) {
   .serviceGauche {
     max-width: 590px;
+    min-height: 150px;
   }
 
   .serviceGauche__image {

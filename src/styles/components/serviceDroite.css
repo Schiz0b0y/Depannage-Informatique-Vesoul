@@ -5,7 +5,6 @@
   display: flex;
   justify-content: space-between;
   gap: 12px;
-  max-height: 180px;
 }
 
 .serviceDroite__title {
@@ -14,7 +13,7 @@
 }
 
 .serviceDroite__text {
-  margin: 0;
+  width: 100%;
   font-size: var(--fs-small);
 }
 
@@ -28,6 +27,7 @@
 @media (min-width: 960px) {
   .serviceDroite {
     max-width: 590px;
+    min-height: 150px;
   }
 
   .serviceDroite__image {
