@@ -32,7 +32,7 @@
   left: 0;
   opacity: 0;
   transition: opacity .5s;
-  background: var(--blur);
+  background: var(--lessBlur);
   color: white;
   border-radius: 15px;
   
@@ -64,10 +64,11 @@
 @media (min-width: 960px) {
   .photo__image {
     max-height: 200px;
-    max-width: 286px;
+    max-width: 270px;
   }
   .photo__titre {
     font-size: 2em;
     max-height: 200px;
+    background: var(--blur);
   }
 }

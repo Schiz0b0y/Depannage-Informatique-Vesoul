@@ -10,6 +10,7 @@
   --principaleAlpha: rgba(43, 108, 163, 0.7);
   --overlay: rgba(0, 0, 0, 0.95);
   --blur: rgba(43, 108, 163, 0.5);
+  --lessBlur: rgba(43, 108, 163, 0.4);
 
   /* Typographie */
   --font-sans: "Open Sans", sans-serif;

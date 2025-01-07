@@ -3,6 +3,7 @@
 const hamburger = document.querySelector(".menuBurger");
 const menu = document.querySelector(".menu");
 const page = document.body;
+const site = document.querySelector("html");
 
 if (hamburger && menu) {
   hamburger.addEventListener("click", () => {
@@ -14,6 +15,7 @@ if (hamburger && menu) {
     menu.ariaHidden = isOpen;
     menu.classList.toggle("menu--open", isClosed);
     menu.classList.toggle("noscroll", isClosed);
+    site.classList.toggle("noscroll", isClosed);
   });
 }
 
@@ -26,3 +28,4 @@ const path = window.location.pathname;
 if (path === "/" || path === "/index.html") {
     document.body.classList.add("homepage");
 }
+
