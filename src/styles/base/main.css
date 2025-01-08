@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-div, span {
-  transition: all 0.4s ease;
-}
-
 body {
   display: flex;
   flex-direction: column;

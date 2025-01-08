@@ -21,9 +21,9 @@
 /* Components */
 @import "components/menu.css";
 @import "components/box.css";
-@import "components/tuileLarge.css";
-@import "components/tuileDemi.css";
 @import "components/hero.css";
 @import "components/serviceDroite.css";
 @import "components/serviceGauche.css";
+@import "components/service.css";
 @import "components/photo.css";
+@import "components/tuile.css";

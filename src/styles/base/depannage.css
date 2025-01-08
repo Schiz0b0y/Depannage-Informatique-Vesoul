@@ -6,6 +6,11 @@
   transition: 0.4s;
 }
 
+.depannage .service:nth-child(even) {
+  flex-direction: row-reverse;
+  padding-left: 0px;
+}
+
 @media (min-width: 960px) {
     .depannage {
       grid-template-columns: repeat(2, 1fr);

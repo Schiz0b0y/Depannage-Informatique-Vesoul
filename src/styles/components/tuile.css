@@ -1,5 +1,6 @@
-.tuileDemi {
+.tuile {
   position: relative;
+  overflow: hidden;
   margin-bottom: 20px;
   width: 100%;
   height: 100%;
@@ -10,7 +11,7 @@
   border-radius: 15px;
 }
 
-.tuileDemi > a {
+.tuile > a {
   position: absolute;
   top: 0;
   right: 0;
@@ -19,40 +20,42 @@
   z-index: 1;
 }
 
-.tuileDemi__img {
+.tuile__img {
   position: relative;
   width: 100%;
-  height: 100px;
+  height: 200px;
   border-radius: 15px;
   object-fit: cover;
 }
 
-.tuileDemi__content {
+.tuile__content {
   position: absolute;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  height: 50px;
-  bottom: 0;
+  justify-content: space-between;
+  padding: 20px 0;
+  overflow: hidden;
+  margin-top: 135px;
+  gap: 30px;
   width: 100%;
+  height: 100%;
   background: var(--principaleAlpha);
   border-radius: 0 0 15px 15px;
 }
 
-.tuileDemi__title {
+.tuile__title {
   width: 100%;
   text-align: center;
   font-size: var(--fs-title-5);
 }
 
-.tuileDemi__description {
-  position: absolute;
-  visibility: hidden;
+.tuile__description {
+  position: relative;
   text-align: center;
-  transition: none;
 }
 
 @media (min-width: 960px) {
+
   .tuileDemiContainer {
     display: flex;
     flex-direction: row;
@@ -60,38 +63,26 @@
     gap: 20px;
   }
 
-  .tuileDemi {
-    width: 50%;
-    height: 100%;
-  }
-
-  .tuileDemi__img {
-    height: 150px;
-  }
-
-  .tuileDemi__content {
-    height: 64px;
+  .tuile__content {
+    margin-top: 130px;
     transition: all 0.4s ease;
-    gap: 20px;
   }
 
-  .tuileDemi:hover .tuileDemi__content {
-    height: 150px;
+  .tuile:hover .tuile__content {
+    margin-top: 0;
     border-radius: 15px;
   }
 
-  .tuileDemi__title {
+  .tuile__title {
     font-size: var(--fs-title-4);
   }
 
-  .tuileDemi__description {
-    position: absolute;
-    visibility: hidden;
+  .tuile__description {
+    position: relative;
     text-align: center;
   }
 
-  .tuileDemi:hover .tuileDemi__description {
+  .tuile:hover .tuile__description {
     position: relative;
-    visibility: visible;
   }
 }
