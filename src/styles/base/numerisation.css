@@ -4,29 +4,13 @@
   gap: 30px;
 }
 
-.numerisation__excerpt {
+.numerisation__content {
   text-align: center;
 }
 
 .numerisation__text {
   margin-bottom: 30px;
   line-height: 35px;
-  font-size: var(--fs-title-4);
-}
-
-.numerisation__text:last-child {
-  margin-bottom: 0px;
-}
-
-.numerisation__box {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-.numerisation__boxText {
-  font-size: var(--fs-title-5);
-}
-.numerisation__boxTitle {
   font-size: var(--fs-title-4);
 }
 
@@ -40,16 +24,11 @@
     gap: 60px;
   }
 
-  .numerisation__excerpt {
-    margin: 60px 0px;
+  .numerisation__content {
+    margin: 30px 0px;
   }
 
   .numerisation__text {
     font-size: var(--fs-title-3);
-  }
-
-  .numerisation__box {
-    flex-direction: row;
-    gap: 120px;
   }
 }

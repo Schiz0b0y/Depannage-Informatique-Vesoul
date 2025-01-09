@@ -1,0 +1,34 @@
+.montage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  margin: 0 auto;
+}
+
+.montage__hardware {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.montage__panier {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+@media (min-width: 960px) {
+  .montage {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 60px;
+  }
+
+  .montage__hardware {
+    width: 1200px;
+  }
+
+}

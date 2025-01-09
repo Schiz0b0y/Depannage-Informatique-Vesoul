@@ -10,6 +10,7 @@
 @import "base/numerisation.css";
 @import "base/depannage.css";
 @import "base/photos.css";
+@import "base/montage.css";
 
 /* Utils */
 @import "utils/variables.css";
@@ -22,8 +23,8 @@
 @import "components/menu.css";
 @import "components/box.css";
 @import "components/hero.css";
-@import "components/serviceDroite.css";
-@import "components/serviceGauche.css";
 @import "components/service.css";
 @import "components/photo.css";
 @import "components/tuile.css";
+@import "components/hardware.css";
+@import "components/button.css";

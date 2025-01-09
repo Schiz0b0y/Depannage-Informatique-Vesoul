@@ -29,3 +29,34 @@ if (path === "/" || path === "/index.html") {
     document.body.classList.add("homepage");
 }
 
+// Affichage des photos
+
+document.addEventListener("DOMContentLoaded", function() {
+  const photos = [];
+
+for (let i = 1; i <= 38; i++) {
+  photos.push({
+    titre: `Photo ${i}`,
+    image: `/src/assets/photos/${i}.webp`,
+    alt: ""
+  });
+}
+
+  const photosContainer = document.getElementById("photosContainer");
+
+  photos.forEach(photo => {
+    const photoElement = document.createElement('article');
+    photoElement.classList.add('photo');
+    photoElement.innerHTML = `
+      <a class="photo__titre" href="#">
+        ${photo.titre}
+      </a>
+      <div class="photo__image">
+        <a href="#">
+          <img src="${photo.image}" alt="${photo.alt}">
+        </a>
+      </div>
+    `;
+    photosContainer.appendChild(photoElement);
+  });
+});

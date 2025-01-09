@@ -15,8 +15,7 @@ body {
 }
 
 main {
-  margin: 50px 30px;
-  flex: 1;
+  margin: 0px 30px 50px;
 }
 
 img,
@@ -25,11 +24,18 @@ video {
   height: auto;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
   font-variation-settings: var(--condensed);
   margin: 0;
 }
 
+.line {
+  border-bottom: var(--gray-100) 1px solid;
+}
 
 .homepage {
   position: relative;
@@ -42,9 +48,7 @@ h1 {
   color: var(--saillance);
 }
 
-.image {
-  border-radius: 15px;
-}
+
 
 .sr-only {
   position: absolute;

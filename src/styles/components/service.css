@@ -11,12 +11,12 @@
 
 .service__title {
   padding-top: 10px;
-  font-size: var(--fs-body);
+  font-size: var(--fs-title-5);
 }
 
 .service__text {
   width: 100%;
-  font-size: var(--fs-small);
+  font-size: var(--fs-body);
 }
 
 .service__image {

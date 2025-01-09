@@ -1,8 +1,8 @@
 @import "./box.css";
+@import "./button.css";
+@import "./hardware.css";
 @import "./hero.css";
 @import "./menu.css";
 @import "./photo.css";
 @import "./service.css";
-@import "./serviceDroite.css";
-@import "./serviceGauche.css";
 @import "./tuile.css";

@@ -8,3 +8,39 @@
   text-align: center;
   color: var(--gray-100);
 }
+
+.box__title {
+  font-size: var(--fs-title-4);
+}
+
+.box__content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.box__container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.box__text {
+  font-size: var(--fs-title-5);
+}
+
+@media (min-width: 960px) {
+
+  .box__title {
+    font-size: var(--fs-title-3);
+  }
+
+  .box__text {
+    font-size: var(--fs-title-4);
+  }
+
+  .box__container {
+    flex-direction: row;
+    gap: 60px;
+  }
+}

@@ -1,11 +1,16 @@
 .hero {
   text-align: center;
   line-height: 45px;
-  margin-bottom: 50px;
+  margin: 30px auto 50px;
 }
 
-.hero__text {
+.hero__title {
   font-weight: normal;
+}
+
+.hero__subtitle {
+  font-size: var(--fs-title-5);
+  margin: 0;
 }
 
 @media (min-width: 960px) {
@@ -15,7 +20,11 @@
     max-width: 700px;
   }
 
-  .hero__text {
+  .hero__title {
     font-size: var(--fs-title-1);
+  }
+
+  .hero__subtitle {
+    font-size: var(--fs-title-4);
   }
 }

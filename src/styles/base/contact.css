@@ -9,7 +9,7 @@
   flex-direction: column;
   align-items: center;
   color: var(--gray-800);
-  font-size: var(--fs-title-4);
+  
 }
 
 .contact-form__input,
@@ -19,22 +19,8 @@
   margin-bottom: 15px;
   border: 1px solid var(--gray-100);
   border-radius: 15px;
+  font-size: var(--fs-title-4);
   font-variation-settings: var(--condensed);
-}
-
-.contact-form__button {
-  width: 50%;
-  padding: 10px;
-  background-color: var(--gray-100);
-  border: 1px solid var(--gray-100);
-  border-radius: 15px;
-  cursor: pointer;
-  color: var(--gray-800);
-  font-variation-settings: var(--condensed);
-}
-
-.contact-form__button:hover {
-  background-color: var(--saillance);
 }
 
 .contact__excerpt {
@@ -42,10 +28,6 @@
   flex-direction: column;
   text-align: center;
   font-variation-settings: var(--condensed);
-}
-
-.contact-line {
-  border-bottom: var(--gray-100) 1px solid;
 }
 
 .contact-details {

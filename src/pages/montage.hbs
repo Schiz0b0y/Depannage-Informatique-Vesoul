@@ -1,3 +1,94 @@
 {{>"layouts/header.hbs"}}
+<div class="hero">
+  <h1 class="hero__title saillance">Montage PC à la carte</h1>
+  <p class="hero__subtitle">Votre PC, votre style, notre expertise.</p>
+</div>
+<div class="montage">
+  <div class="montage__hardware">
+  
+    {{>"components/hardware.hbs"
+      icone="/src/assets/icones/Microchip.svg"
+      title="CPU"
+    }}
+    
+    {{>"components/hardware.hbs"
+      icone="/src/assets/icones/Motherboard.svg"
+      title="Carte mère"
+    }}
+  
+    {{>"components/hardware.hbs"
+      icone="/src/assets/icones/Video_Card.svg"
+      title="Carte graphique"
+    }}
+    
+    {{>"components/hardware.hbs"
+      icone="/src/assets/icones/RAM.svg"
+      title="Mémoire vive"
+    }}
+    
+    {{>"components/hardware.hbs"
+      icone="/src/assets/icones/Fan.svg"
+      title="Refroidissement CPU"
+    }}
+    
+    {{>"components/hardware.hbs"
+      icone="/src/assets/icones/Syringe.svg"
+      title="Pâte thermique"
+    }}
+    
+    {{>"components/hardware.hbs"
+      icone="/src/assets/icones/SSD.svg"
+      title="SSD"
+    }}
+    
+    {{>"components/hardware.hbs"
+      icone="/src/assets/icones/HDD.svg"
+      title="HDD"
+    }}
+    
+    {{>"components/hardware.hbs"
+      icone="/src/assets/icones/Wi-Fi.svg"
+      title="Carte WiFi"
+    }}
+    
+    {{>"components/hardware.hbs"
+      icone="/src/assets/icones/DVD_RW_Drive.svg"
+      title="Graveur DVD"
+    }}
+    
+    {{>"components/hardware.hbs"
+      icone="/src/assets/icones/Audio.svg"
+      title="Carte son"
+    }}
+    
+    {{>"components/hardware.hbs"
+      icone="/src/assets/icones/Arduino.svg"
+      title="Carte PCI"
+    }}
+    
+    {{>"components/hardware.hbs"
+      icone="/src/assets/icones/Case.svg"
+      title="Boîtier"
+    }}
+    
+    {{>"components/hardware.hbs"
+      icone="/src/assets/icones/Electrical.svg"
+      title="Alimentation"
+    }}
+    
+  </div>
+  <div class="montage__panier">
+    <div class="box">
+      <h2 class="box__title">Mes choix</h2>
+      <div class="line"></div>
+      <div class="box__content">
+        <div class="box__text">
+          <p>Vous n'avez pas encore ajouté de composant à votre montage.</p>
+        </div>
+      </div>
+    </div>
+    <button type="submit" class="button">Créer mon devis</button>
+  </div>
+</div>
 
 {{>"layouts/footer.hbs"}}

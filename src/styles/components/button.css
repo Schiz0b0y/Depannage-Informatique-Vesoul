@@ -1,0 +1,15 @@
+.button {
+  min-width: 50%;
+  padding: 10px;
+  background-color: var(--gray-100);
+  border: 1px solid var(--gray-100);
+  border-radius: 15px;
+  cursor: pointer;
+  color: var(--gray-800);
+  font-size: var(--fs-title-4);
+  font-variation-settings: var(--condensed);
+}
+
+.button:hover {
+  background-color: var(--gray-200);
+}
