@@ -23,7 +23,7 @@
   font-variation-settings: var(--condensed);
 }
 
-.contact__excerpt {
+.contact__content {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -31,27 +31,24 @@
 }
 
 .contact-details {
-  margin-top: 20px;
-  text-align: center;
+  margin: 20px auto;
   padding: 0 20px;
 }
 
 .contact-details__text {
   display: block;
-  margin-bottom: 20px;
   font-size: var(--fs-title-5);
   font-variation-settings: var(--normal);
+  text-align: center;
 }
 
 @media (min-width: 960px) {
   .contact {
-    display: flex;
     flex-direction: row;
     gap: 120px;
-    align-items: center;
   }
 
-  .contact__excerpt {
+  .contact__content {
     gap: 60px;
   }
 }

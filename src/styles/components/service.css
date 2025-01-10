@@ -11,12 +11,32 @@
 
 .service__title {
   padding-top: 10px;
-  font-size: var(--fs-title-5);
+  font-size: var(--fs-title-4);
+  text-align: center;
+}
+
+.service__content {
+  width: 100%;
+  background-color: var(--principale);
 }
 
 .service__text {
-  width: 100%;
-  font-size: var(--fs-body);
+  font-size: var(--fs-title-5);
+  line-height: 25px;
+  ul {
+    padding-left: 15px;
+  }
+  li {
+    padding-top: 5px;
+  }
+  ul>li>ul {
+    list-style-type: square;
+    list-style-position: inside;
+    li {
+      font-size: var(--fs-title-6);
+      line-height: 20px;
+    }
+  }
 }
 
 .service__image {
