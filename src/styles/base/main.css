@@ -9,9 +9,9 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: var(--gray-800);
+  color: var(--gray-100);
   font-family: var(--font-sans);
   font-variation-settings: var(--condensed);
-  color: var(--gray-100);
 }
 
 main {
