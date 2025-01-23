@@ -20,6 +20,10 @@
   gap: 15px;
 }
 
+.accordion-item {
+  border-radius: 17px !important;
+}
+
 @media (min-width: 960px) {
   .montage {
     flex-direction: row;
