@@ -39,20 +39,32 @@
     N'hésitez pas à prendre contact, les devis sont GRATUITS et SANS FRAIS de prise en charge !
   </span>
 </div>
-<div class="contact-details">
-  <span class="contact-details__text saillance">
-    Horaires
-  </span>
-</div>
-<div class="contact-details">
-  <span class="contact-details__text">
-    <p>Lundi - Mardi - Jeudi - Vendredi - 8h-12h30 / 15h30-18h30</p>
-    <p>Mercredi - 8h-12h30</p>
-    <p>FERME le samedi</p>
-  </span>
-  <span class="contact-details__text">
-    De 14h à 15h30 Je suis en dépannage à votre domicile .
-  </span>
-</div>
+<table class="contact-table">
+  <caption class="contact-table__caption saillance">Horaires</caption>
+  <thead class="contact-table__head">
+    <tr class="contact-table__row">
+      <th class="contact-table__title">Jour</th>
+      <th class="contact-table__title">Heure</th>
+    </tr>
+  </thead>
+  <tbody class="contact-table__body">
+    <tr class="contact-table__row">
+      <td class="contact-table__first">Lundi, Mardi, Jeudi, Vendredi</td>
+      <td class="contact-table__last">8h-12h30 / 15h30-18h30</td>
+    </tr>
+    <tr class="contact-table__row">
+      <td class="contact-table__first">Mercredi</td>
+      <td class="contact-table__last">8h-12h30</td>
+    </tr>
+    <tr class="contact-table__row">
+      <td class="contact-table__first">Samedi</td>
+      <td class="contact-table__last">Fermé</td>
+    </tr>
+    <tr class="contact-table__row">
+      <td class="contact-table__first">De 14h à 15h30</td>
+      <td class="contact-table__last">Dépannage à domicile</td>
+    </tr>
+  </tbody>
+</table>
 
 {{>"layouts/footer.hbs"}}

@@ -19,8 +19,6 @@ if (hamburger && menu) {
   });
 }
 
-
-
 // Affichage du background sur la page d'accueil
 
 const path = window.location.pathname;
@@ -34,13 +32,13 @@ if (path === "/" || path === "/index.html") {
 document.addEventListener("DOMContentLoaded", function() {
   const photos = [];
 
-for (let i = 1; i <= 38; i++) {
-  photos.push({
-    titre: `Photo ${i}`,
-    image: `/src/assets/photos/${i}.webp`,
-    alt: ""
-  });
-}
+  for (let i = 1; i <= 38; i++) {
+    photos.push({
+      titre: `Photo ${i}`,
+      image: `/src/assets/photos/${i}.webp`,
+      alt: ""
+    });
+  }
 
   const photosContainer = document.getElementById("photosContainer");
 

@@ -7,7 +7,7 @@
 .photo__image {
   line-height: 0;
   overflow: hidden;
-  border-radius: 15px;
+  border-radius: var(--rad);
   height: 224px;
   
 }
@@ -34,7 +34,7 @@
   transition: opacity .5s;
   background: var(--lessBlur);
   color: white;
-  border-radius: 15px;
+  border-radius: var(--rad);
   
   /* position the text in t’ middle*/
   display: flex;

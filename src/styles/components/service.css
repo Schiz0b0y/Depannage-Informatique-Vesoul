@@ -2,7 +2,7 @@
   padding-left: 10px;
   background: var(--principale);
   overflow: hidden;
-  border-radius: 15px;
+  border-radius: var(--rad);
   display: flex;
   flex-direction: row;
   justify-content: space-between;

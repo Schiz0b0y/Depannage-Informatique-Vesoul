@@ -5,7 +5,7 @@
   padding: 8px 17px;
   position: relative;
   background-color: var(--principale);
-  border-radius: 15px;
+  border-radius: var(--rad);
   overflow: hidden;
 }
 
@@ -17,6 +17,7 @@
 
 .composant__title {
   position: relative;
+  font-size: var(--fs-title-4);
   color: var(--gray-100);
   text-align: center;
   padding: 0 10px;
@@ -29,7 +30,5 @@
 }
 
 @media (min-width: 960px) {
-  .composant__title {
-    font-size: var(--fs-title-4);
-  }
+
 }

@@ -8,7 +8,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  border-radius: 15px;
+  border-radius: var(--rad);
 }
 
 .tuile > a {
@@ -24,7 +24,7 @@
   position: relative;
   width: 100%;
   height: 200px;
-  border-radius: 15px;
+  border-radius: var(--rad);
   object-fit: cover;
 }
 
@@ -70,7 +70,7 @@
 
   .tuile:hover .tuile__content {
     margin-top: 0;
-    border-radius: 15px;
+    border-radius: var(--rad);
   }
 
   .tuile__title {

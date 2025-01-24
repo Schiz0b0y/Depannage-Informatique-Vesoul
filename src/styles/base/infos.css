@@ -10,7 +10,7 @@
 .infos__img {
   width: 100%;
   height: auto;
-  border-radius: 15px;
+  border-radius: var(--rad);
 }
 
 .infos__text {
